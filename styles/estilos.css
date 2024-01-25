@@ -1,0 +1,96 @@
+@font-face {
+    font-family: lcd;
+    src: url(../fonts/lcd.TTF);
+}
+
+body{
+    background-image: url(../images/fondo1.jpg);
+    font-family: lcd;
+    font-variant: small-caps;
+}
+header{
+    background-color:#262626;
+    text-align: center;
+    color: #CEF249;
+    padding: 1%;
+    font-size: 200%;
+    letter-spacing: 0.1em;
+    border-style: solid;
+    border-top-color:  grey;
+    border-left-color:  grey;
+    border-right-color:  black;
+    border-bottom-color:  black;
+    margin: 1%;
+}
+div{
+    width: 29%;
+    background-color: #262626;
+    display: inline-block;
+    margin-left: 1%;
+}
+img{
+    width: -webkit-fill-available;
+    padding: 3%;
+    height: 13em;
+    width: 22.5em;
+    max-width: 94%;
+    min-width: 94%;
+}
+p{
+    text-align: end;
+    margin: auto;
+    margin-right: 3%;
+    color: grey;
+    font-size: 135%;
+}
+.avestruz,.serpiente{
+    border-style: solid;
+    border-left-color:  grey;
+    border-right-color:  black;
+    border-bottom-color:  black;
+    border-top-width:0em;
+}
+.rinoceronte,.mono,.gato,.aguila,.perro{
+    border-style: solid;
+    border-top-color: grey;
+    border-left-color:  grey;
+    border-right-color:  black;
+    border-bottom-color:  black;
+}
+.leon,.jirafa{
+    border-style: solid;
+    border-top-color: grey;
+    border-left-color:  grey;
+    border-right-color:  black;
+    border-bottom-width:0em;
+}
+.rinoceronte{
+    position: relative;
+    top: 1em;
+}
+.mono{
+    position: relative;
+    top: 3em;
+}
+.gato{
+    position: relative;
+    top: 3em;
+    left: 4em;
+}
+.aguila{
+    position: relative;
+    left: 4em;
+    top: 3em;
+}
+.leon{
+    position: relative;
+    top: 6em;
+}
+.perro{
+    position: relative;
+    top: 4.5em;
+}
+.jirafa{
+    position: relative;
+    top: 6em;
+}
